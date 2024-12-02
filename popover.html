@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="max.css">
+</head>
+<style>
+    img{
+        border-radius: 70%;
+        width: 100px;
+        height: 100px;
+        /* align-content: center; */
+        padding-left: 35px;
+        mix-blend-mode: multiply;
+
+    }
+    body{
+        padding-left: 35%;
+        padding-right: 35%;
+        background-color: 
+    }
+    h3{
+      text-align: center;
+    }
+    .container{
+        margin: auto;
+        width: 60%;
+        height: 40%;
+        border: 2px solid beige;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        background-color: bisque;
+    }
+    #my-popover{
+        background-color: azure;
+        border: 2px beige;
+    }
+</style>
+<body>
+    <div class="container">
+    
+    <img src="UMU.png" alt="this">
+    <h3>LOGIN</h3>
+    <br>
+    <input type="email" name="email" required placeholder="Enter email" id="">
+    <br>
+    <br>
+    <input type="password" name="password" required placeholder="Password" id="">
+    <br>
+    <br>
+    <tr>
+    <input type="submit" value="SUBMIT">
+    <button popovertarget="my-popover">
+          New here?Register
+    </button>
+</tr>
+<div id="my-popover" popover>
+  <tr>
+    <td>FIRST NAME</td>
+    <input type="text" name="fname" required placeholder="ENTER FIRST NAME">
+  </tr>
+  <br>
+<br>
+  <tr>
+    <td>OTHER NAME</td>
+    <input type="text" name="oname" required placeholder="ENTER OTHER NAME" id="">
+  </tr>
+  <br>
+  <br>
+  <tr>
+    <td>SEX</td>
+    <br>
+        M<input type="radio" name="M" id="">
+        F<input type="radio" name="F" id="">
+  </tr>
+  <br>
+  <br>
+  <tr>
+    <td>DATE OF BIRTH</td>
+    <input type="date" name="DOB" required id="">
+  </tr>
+  <br>
+  <br>
+  <tr>
+    <input type="file" required name="CV" id="">
+  </tr>
+  <br>
+  <br>
+  <input type="submit" value="SUBMIT">
+</div>
+</div>
+</body>
+</html>
